@@ -1,0 +1,82 @@
+
+body{
+    background: url(imagee.jpg) rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+@media(max-width: 991px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
+.bg{
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:rgba(255, 255, 255, 0.15);
+    height: 40vh;
+}
+
+
+.herobtn{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro{
+    padding: 30px;
+}
+.features{
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 30px;
+}
+
+.features-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature-item{
+    flex: 1;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    height: 120px;
+    width: 40px;
+    
+}
+.popularcourses{
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.footertag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footerlinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
